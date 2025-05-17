@@ -15,7 +15,7 @@ TaskList.prototype.removeTask = function (taskName) {
 
 // Method to list all tasks
 TaskList.prototype.listTask = function(){
-    this.tasks.forEach(task => task.diplay());
+    this.tasks.forEach(task => task.display());
 }
 
 // Method get total tasks

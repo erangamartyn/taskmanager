@@ -11,7 +11,7 @@ Task.prototype.markAsDone = function () {
 }
 
 // Method to display task information
-Task.prototype.display() = function () {
+Task.prototype.display = function () {
     console.log(`${this.name}'s due date is ${this.dueDate}. The task's status is ${this.status}.`);
 }
 
